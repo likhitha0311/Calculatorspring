@@ -4,6 +4,8 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 //This is approach one for confiuring dispatcher servlet.
 //When this file is on, u can ignore CalculatorApplicationInitialiser class.
+
+/*
 public class Approach1CalcAppInitialiser extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override
@@ -23,7 +25,9 @@ public class Approach1CalcAppInitialiser extends AbstractAnnotationConfigDispatc
 	@Override
 	protected String[] getServletMappings() {
 		String arr[] ={"/mywebsite.com/*"};
-		return null;
+		return arr;
 	}
 
 }
+
+*/
